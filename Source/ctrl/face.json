@@ -1,0 +1,93 @@
+{
+    "face": {
+        "title": "Ctrl",
+        "author": "Abeno Studio",
+        "debug": false,
+        "fonts": [
+            {
+                "id": "SasserSmallCaps",
+                "path": "faces-user/ctrl/fonts/Sasser Slab/Sasser-Small-Caps"
+            }
+        ],
+        "textStyles": [
+            {
+                "id": "numr",
+                "font": "SasserSmallCaps",
+                "drawMode": "nxor",
+                "hAlign": "right",
+                "vAlign": "middle"
+            },
+            {
+                "id": "numl",
+                "font": "SasserSmallCaps",
+                "drawMode": "nxor",
+                "hAlign": "left",
+                "vAlign": "middle"
+            }
+        ],
+        "foreground": {
+            "texts": [
+                {
+                    "text": "${player.currentPlaybackPosition}",
+                    "style": "numl",
+                    "rect": [
+                        8,
+                        215,
+                        150,
+                        -1
+                    ]
+                },
+                {
+                    "text": "-${player.currentPlaybackTimeRemaining}",
+                    "style": "numr",
+                    "rect": [
+                        207,
+                        215,
+                        150,
+                        -1
+                    ]
+                }
+            ],
+            "playerButtons": {
+                "type": "vertical",
+                "path": "faces-user/ctrl/playerButtons",
+                "pos": [
+                    361,
+                    131
+                ]
+            },
+            "seekBar": {
+                "foreground": "white",
+                "background": "densechecker",
+                "border": {
+                    "size": 3,
+                    "pattern": "densechecker"
+                },
+                "rect": [
+                    8,
+                    182,
+                    349,
+                    30
+                ],
+                "radius": 1
+            },
+            "audioSpectrum": {
+                "type": "stereo",
+                "foreground": "double",
+                "background": "sparsechecker",
+                "peek": "densechecker",
+                "blockMarginWidth": 18,
+                "itemWidth": 16,
+                "itemHeight": 150,
+                "itemMarginWidth": 4,
+                "peekHeight": 3,
+                "rect": [
+                    8,
+                    16,
+                    348,
+                    150
+                ]
+            }
+        }
+    }
+}

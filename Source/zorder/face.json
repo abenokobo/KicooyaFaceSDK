@@ -1,0 +1,134 @@
+{
+    "face": {
+        "title": "zOrder",
+        "author": "Abeno Studio",
+        "debug": false,
+        "fonts": [],
+        "textStyles": [
+            {
+                "id": "dsc",
+                "font": "font.description",
+                "drawMode": "copy",
+                "hAlign": "center",
+                "vAlign": "middle"
+            }
+        ],
+        "lua": {
+            "path": "faces-user/zOrder/face",
+            "arg": "",
+            "zOrder": {
+                "background": 0,
+                "foreground": 0,
+                "audioVisualizer": -126
+            }
+        },
+        "background": {
+            "texts": [
+                {
+                    "text": "${song.title}",
+                    "style": "dsc",
+                    "rect": [40, 20, 280, 30],
+                    "zOrder": 256
+                },
+                {
+                    "text": "${song.album}",
+                    "style": "dsc",
+                    "rect": [30, 35, 280, 30],
+                    "zOrder": 1
+                },
+                {
+                    "text": "${song.artist}",
+                    "style": "dsc",
+                    "rect": [20, 50, 280, 30],
+                    "zOrder": -254
+                }
+            ],
+            "images": [
+                {"path": "faces-user/zOrder/textbg", "pos": [30, 20],   "zOrder": 255},
+                {"path": "faces-user/zOrder/textbg", "pos": [20, 35],   "zOrder": 0},
+                {"path": "faces-user/zOrder/textbg", "pos": [10, 50],   "zOrder": -255},
+
+                {"path": "faces-user/zOrder/001", "pos": [16, 104],     "zOrder": 1},
+                {"path": "faces-user/zOrder/002", "pos": [32,104],      "zOrder": 2},
+                {"path": "faces-user/zOrder/003", "pos": [24, 120],     "zOrder": 3},
+
+                {"path": "faces-user/zOrder/001", "pos": [80, 104],     "zOrder": 1},
+                {"path": "faces-user/zOrder/002", "pos": [96, 104],     "zOrder": 3},
+                {"path": "faces-user/zOrder/003", "pos": [88, 120],     "zOrder": 2},
+
+                {"path": "faces-user/zOrder/001", "pos": [144, 104],    "zOrder": 2},
+                {"path": "faces-user/zOrder/002", "pos": [160, 104],    "zOrder": 1},
+                {"path": "faces-user/zOrder/003", "pos": [152, 120],    "zOrder": 3},
+
+                {"path": "faces-user/zOrder/001", "pos": [208, 104],    "zOrder": 2},
+                {"path": "faces-user/zOrder/002", "pos": [224, 104],    "zOrder": 3},
+                {"path": "faces-user/zOrder/003", "pos": [216, 120],    "zOrder": 1},
+
+                {"path": "faces-user/zOrder/001", "pos": [272, 104],    "zOrder": 3},
+                {"path": "faces-user/zOrder/002", "pos": [288, 104],    "zOrder": 1},
+                {"path": "faces-user/zOrder/003", "pos": [294, 120],    "zOrder": 2},
+
+                {"path": "faces-user/zOrder/001", "pos": [336, 104],    "zOrder": 3},
+                {"path": "faces-user/zOrder/002", "pos": [348, 104],    "zOrder": 2},
+                {"path": "faces-user/zOrder/003", "pos": [340, 120],    "zOrder": 1}
+            ]
+        },
+        "foreground": {
+            "texts": [
+                {
+                    "text": "${song.title}",
+                    "style": "dsc",
+                    "rect": [30, 162, 280, 30],
+                    "zOrder": -254
+                },
+                {
+                    "text": "${song.album}",
+                    "style": "dsc",
+                    "rect": [60, 180, 280, 30],
+                    "zOrder": -63
+                },
+                {
+                    "text": "${song.artist}",
+                    "style": "dsc",
+                    "rect": [90, 202, 280, 30],
+                    "zOrder": 1
+                }
+            ],
+            "images": [
+                {"path": "faces-user/zOrder/textbg", "pos": [20, 162],     "zOrder": -255},
+                {"path": "faces-user/zOrder/textbg", "pos": [50, 180],     "zOrder": -64},
+                {"path": "faces-user/zOrder/textbg", "pos": [80, 202],     "zOrder": 0}
+            ],
+            "playerButtons": {
+                "type": "vertical",
+                "path": "faces-user/zorder/playerButtons",
+                "pos": [356, 10],
+                "zOrder": -128
+            },
+            "seekBar": {
+                "foreground": "black",
+                "background": "white",
+                "border": {
+                    "size": 2,
+                    "pattern": "black"
+                },
+                "rect": [20, 222, 360, 6],
+                "radius": 2,
+                "zOrder": 128
+            },
+            "audioSpectrum": {
+                "type": "stereo",
+                "foreground": "black",
+                "background": null,
+                "peek": null,
+                "blockMarginWidth": 14,
+                "itemWidth": 18,
+                "itemHeight": 70,
+                "itemMarginWidth": 2,
+                "peekHeight": 2,
+                "rect": [100, 192, 200, -1],
+                "zOrder": -32
+            }
+        }
+    }
+}

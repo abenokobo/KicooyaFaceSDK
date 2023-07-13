@@ -1,0 +1,14 @@
+{
+  "actions" : {
+    "build" : {
+      "enabled" : true,
+      "script" : ".\/.kicooya\/build.sh\n"
+    },
+    "run" : {
+      "enabled" : true,
+      "script" : ".\/.kicooya\/build-run-simulator.sh\n"
+    }
+  },
+  "buildBeforeRunning" : true,
+  "openLogOnRun" : "fail"
+}

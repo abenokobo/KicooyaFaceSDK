@@ -1,0 +1,253 @@
+{
+    "face": {
+        "title": "Text",
+        "author": "Abeno Studio",
+        "debug": false,
+        "fonts": [
+            {
+                "id": "NewsleakSerif",
+                "path": "faces-user/text/fonts/Newsleak Serif/Newsleak-Serif"
+            },
+            {
+                "id": "BitmoreMedievalOutlined",
+                "path": "faces-user/text/fonts/Bitmore/font-Bitmore-Medieval-Outlined"
+            }
+        ],
+        "textStyles": [
+            {
+                "id": "roobert",
+                "font": "Roobert10Bold",
+                "drawMode": "copy",
+                "hAlign": "left",
+                "vAlign": "middle"
+            },
+            {
+                "id": "newsleakserif",
+                "font": "NewsleakSerif",
+                "drawMode": "copy",
+                "hAlign": "left",
+                "vAlign": "middle"
+            },
+            {
+                "id": "alginLT",
+                "font": "Roobert10Bold",
+                "drawMode": "copy",
+                "hAlign": "left",
+                "vAlign": "top"
+            },
+            {
+                "id": "alginCM",
+                "font": "Roobert10Bold",
+                "drawMode": "copy",
+                "hAlign": "center",
+                "vAlign": "middle"
+            },
+            {
+                "id": "alginRB",
+                "font": "Roobert10Bold",
+                "drawMode": "copy",
+                "hAlign": "right",
+                "vAlign": "bottom"
+            },
+            {
+                "id": "copy",
+                "font": "BitmoreMedievalOutlined",
+                "drawMode": "copy",
+                "hAlign": "center",
+                "vAlign": "middle"
+            },
+            {
+                "id": "whiteTransparent",
+                "font": "BitmoreMedievalOutlined",
+                "drawMode": "whiteTransparent",
+                "hAlign": "center",
+                "vAlign": "middle"
+            },
+            {
+                "id": "blackTransparent",
+                "font": "BitmoreMedievalOutlined",
+                "drawMode": "blackTransparent",
+                "hAlign": "center",
+                "vAlign": "middle"
+            },
+            {
+                "id": "fillWhite",
+                "font": "BitmoreMedievalOutlined",
+                "drawMode": "fillWhite",
+                "hAlign": "center",
+                "vAlign": "middle"
+            },
+            {
+                "id": "fillBlack",
+                "font": "BitmoreMedievalOutlined",
+                "drawMode": "fillBlack",
+                "hAlign": "center",
+                "vAlign": "middle"
+            },
+            {
+                "id": "xor",
+                "font": "BitmoreMedievalOutlined",
+                "drawMode": "xor",
+                "hAlign": "center",
+                "vAlign": "middle"
+            },
+            {
+                "id": "nxor",
+                "font": "BitmoreMedievalOutlined",
+                "drawMode": "nxor",
+                "hAlign": "center",
+                "vAlign": "middle"
+            },
+            {
+                "id": "inverted",
+                "font": "BitmoreMedievalOutlined",
+                "drawMode": "inverted",
+                "hAlign": "center",
+                "vAlign": "middle"
+            }
+        ],        
+        "background": {
+            "images": [
+                {
+                    "path": "faces-user/text/background",
+                    "pos": [
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "texts": [
+                {
+                    "text": "game folder Font: 'Roobert 10 Bold'",
+                    "style": "roobert",
+                    "rect": [
+                        10,
+                        10,
+                        380,
+                        20
+                    ]
+                },
+                {
+                    "text": "user folder Font: 'Newsleak Serif'",
+                    "style": "newsleakserif",
+                    "rect": [
+                        10,
+                        40,
+                        380,
+                        20
+                    ]
+                },
+                {
+                    "text": "LeftTop",
+                    "style": "alginLT",
+                    "rect": [
+                        10,
+                        70,
+                        120,
+                        30
+                    ]
+                },
+                {
+                    "text": "Center Middle",
+                    "style": "alginCM",
+                    "rect": [
+                        140,
+                        70,
+                        120,
+                        30
+                    ]
+                },
+                {
+                    "text": "Right Bottom",
+                    "style": "alginRB",
+                    "rect": [
+                        270,
+                        70,
+                        120,
+                        30
+                    ]
+                },
+                {
+                    "text": "copy",
+                    "style": "copy",
+                    "rect": [
+                        10,
+                        110,
+                        185,
+                        20
+                    ]
+                },
+                {
+                    "text": "whiteTransparent",
+                    "style": "whiteTransparent",
+                    "rect": [
+                        205,
+                        110,
+                        185,
+                        20
+                    ]
+                },
+                {
+                    "text": "blackTransparent",
+                    "style": "blackTransparent",
+                    "rect": [
+                        10,
+                        140,
+                        185,
+                        20
+                    ]
+                },
+                {
+                    "text": "fillWhite",
+                    "style": "fillWhite",
+                    "rect": [
+                        205,
+                        140,
+                        185,
+                        20
+                    ]
+                },
+                {
+                    "text": "fillBlack",
+                    "style": "fillBlack",
+                    "rect": [
+                        10,
+                        170,
+                        185,
+                        20
+                    ]
+                },
+                {
+                    "text": "xor",
+                    "style": "xor",
+                    "rect": [
+                        205,
+                        170,
+                        185,
+                        20
+                    ]
+                },
+                {
+                    "text": "nxor",
+                    "style": "nxor",
+                    "rect": [
+                        10,
+                        200,
+                        185,
+                        20
+                    ]
+                },
+                {
+                    "text": "inverted",
+                    "style": "inverted",
+                    "rect": [
+                        205,
+                        200,
+                        185,
+                        20
+                    ]
+                }
+            ]
+        }
+    }
+}

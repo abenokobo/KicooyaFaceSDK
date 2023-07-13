@@ -1,0 +1,42 @@
+{
+    "face": {
+        "title": "C90",
+        "author": "Abeno Studio",
+        "debug": false,
+        "preinstall": true,
+        "lua": {
+            "path": "faces/c90/face",
+            "arg": ""
+        },
+        "fonts": [],
+        "patterns": [],
+        "textStyles": [],
+        "background": {
+            "texts": [],
+            "images": [
+                {
+                    "path": "faces/c90/images/background",
+                    "pos": [0, 0]
+                }
+            ]
+        },
+        "foreground": {
+            "texts": [],
+            "images": [],
+            "playerButtons": {
+                "type": "vertical",
+                "path": "faces/c90/images/playerButtons",
+                "pos": [378, 172]
+            },
+            "seekBar": {
+                "foreground": "black",
+                "background": "white",
+                "border": {
+                    "size": 1,
+                    "pattern": "black"
+                },
+                "rect": [34, 61, 332, 4]
+            }
+        }
+    }
+}

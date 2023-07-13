@@ -1,0 +1,9 @@
+name=Kicooya MP3
+author=Abeno Studio
+bundleID=com.abenokobo.kicooya
+version=2023070400
+imagePath=assets/launcher
+launchSoundPath=assets/launcher/launchSound
+description=MP3 Player for Playdate
+pdxversion=20000
+buildtime=741745874

@@ -1,0 +1,159 @@
+{
+    "face": {
+        "title": "MaruMonica",
+        "author": "あべの工房(Font: hicc)",
+        "debug": false,
+        "preinstall": false,
+        "lua": {
+            "path": "faces-user/marumonica/face",
+            "argument": ""
+        },
+        "fonts": [
+            {
+                "id": "maruMonica",
+                "path": "faces-user/marumonica/fonts/MaruMonica/MaruMonica"
+            }
+        ],
+        "textStyles": [
+            {
+                "id": "ttl",
+                "font": "maruMonica",
+                "drawMode": "nxor",
+                "hAlign": "center",
+                "vAlign": "middle"
+            },
+            {
+                "id": "dsc",
+                "font": "maruMonica",
+                "drawMode": "nxor",
+                "hAlign": "center",
+                "vAlign": "middle"
+            },
+            {
+                "id": "numr",
+                "font": "maruMonica",
+                "drawMode": "nxor",
+                "hAlign": "right",
+                "vAlign": "middle"
+            },
+            {
+                "id": "numl",
+                "font": "maruMonica",
+                "drawMode": "nxor",
+                "hAlign": "left",
+                "vAlign": "middle"
+            }
+        ],
+        "background": {
+            "images": [
+                {
+                    "path": "faces-user/marumonica/background",
+                    "pos": [
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "path": "song.artImageLarge",
+                    "rect": [
+                        10,
+                        52,
+                        180,
+                        180
+                    ],
+                    "border": {
+                        "size": 2,
+                        "pattern": "densechecker"
+                    }
+                }
+            ]
+        },
+        "foreground": {
+            "texts": [
+                {
+                    "text": "${song.title}",
+                    "style": "ttl",
+                    "rect": [
+                        0,
+                        0,
+                        400,
+                        34
+                    ]
+                },
+                {
+                    "text": "${song.album}",
+                    "style": "dsc",
+                    "rect": [
+                        200,
+                        56,
+                        190,
+                        20
+                    ]
+                },
+                {
+                    "text": "${song.artist}",
+                    "style": "dsc",
+                    "rect": [
+                        200,
+                        84,
+                        190,
+                        20
+                    ]
+                },
+                {
+                    "text": "${playlist.currentIndex} / ${playlist.length}",
+                    "style": "numr",
+                    "rect": [
+                        200,
+                        109,
+                        195,
+                        -1
+                    ]
+                },
+                {
+                    "text": "${player.currentPlaybackPosition}",
+                    "style": "numl",
+                    "rect": [
+                        200,
+                        219,
+                        100,
+                        -1
+                    ]
+                },
+                {
+                    "text": "-${player.currentPlaybackTimeRemaining}",
+                    "style": "numr",
+                    "rect": [
+                        257,
+                        219,
+                        100,
+                        -1
+                    ]
+                }
+            ],
+            "playerButtons": {
+                "type": "vertical",
+                "path": "faces-user/marumonica/playerButtons",
+                "pos": [
+                    361,
+                    131
+                ]
+            },
+            "seekBar": {
+                "foreground": "densechecker",
+                "background": "dbandcheck",
+                "border": {
+                    "size": 2,
+                    "pattern": "black"
+                },
+                "rect": [
+                    200,
+                    200,
+                    157,
+                    17
+                ],
+                "radius": 2
+            }
+        }
+    }
+}

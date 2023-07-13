@@ -1,0 +1,28 @@
+{
+    "assets\/media\/music\/Sample01.mp3":{
+        "title":"Sample 01",
+        "artist":"Abeno Studio",
+        "album":"Sample",
+        "genre":"Pop",
+        "trackNumber":"1\/2",
+        "discNumber":"1\/1",
+        "composer":"Abeno Kobo",
+        "year":2023,
+        "mpeg.bitrate":128,
+        "mpeg.samplingRate":44100,
+        "mpeg.channelMode":1
+    },
+    "assets\/media\/music\/Sample02.mp3":{
+        "title":"Sample 02",
+        "artist":"Abeno Studio",
+        "album":"Sample",
+        "genre":"Pop",
+        "trackNumber":"2\/2",
+        "discNumber":"1\/1",
+        "composer":"Abeno Studio",
+        "year":2023,
+        "mpeg.bitrate":128,
+        "mpeg.samplingRate":44100,
+        "mpeg.channelMode":1
+    }
+}

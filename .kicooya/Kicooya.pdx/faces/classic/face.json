@@ -1,0 +1,119 @@
+{
+    "face": {
+        "title": "Classic",
+        "author": "Abeno Studio",
+        "debug": false,
+        "preinstall": true,
+        "lua": {
+            "path": "faces/classic/face",
+            "arg": ""
+        },
+        "fonts": [],
+        "patterns": [],
+        "textStyles": [
+            {
+                "id": "headline",
+                "font": "Roobert20Medium",
+                "drawMode": "copy",
+                "hAlign": "center",
+                "vAlign": "middle"
+            },
+            {
+                "id": "normal",
+                "font": "font.title",
+                "drawMode": "copy",
+                "hAlign": "center",
+                "vAlign": "middle"
+            },
+            {
+                "id": "playlist",
+                "font": "AshevilleSans14Bold",
+                "drawMode": "copy",
+                "hAlign": "left",
+                "vAlign": "middle"
+            },
+            {
+                "id": "length",
+                "font": "AshevilleSans14Bold",
+                "drawMode": "copy",
+                "hAlign": "left",
+                "vAlign": "middle"
+            },
+            {
+                "id": "pos",
+                "font": "AshevilleSans14Bold",
+                "drawMode": "copy",
+                "hAlign": "right",
+                "vAlign": "middle"
+            }
+        ],
+        "background": {
+            "texts": [
+                {
+                    "text": "Now Playing",
+                    "style": "headline",
+                    "rect": [10, 5, 380, -1]
+                }
+            ],
+            "images": [
+                {
+                    "path": "faces/classic/images/background",
+                    "pos": [0, 0]
+                }
+            ]
+        },
+        "foreground": {
+            "texts": [
+                {
+                    "text": "${song.title}",
+                    "style": "normal",
+                    "rect": [10, 72, 380, -1]
+                },
+                {
+                    "text": "${song.album}",
+                    "style": "normal",
+                    "rect": [10, 108, 380, -1]
+                },
+                {
+                    "text": "${song.artist}",
+                    "style": "normal",
+                    "rect": [10, 144, 380, -1]
+                },
+                {
+                    "text": "${playlist.currentIndex} of ${playlist.length}",
+                    "style": "playlist",
+                    "rect": [19, 48, 363, -1]
+                },
+                {
+                    "text": "${player.currentPlaybackPosition}",
+                    "style": "length",
+                    "rect": [43, 215, 100, -1]
+                },
+                {
+                    "text": "-${player.currentPlaybackTimeRemaining}",
+                    "style": "pos",
+                    "rect": [257, 215, 100, -1]
+                }
+            ],
+            "images": [],
+            "playerButtons": {
+                "type": "vertical",
+                "path": "faces/classic/images/playerButtons",
+                "pos": [370, 176]
+            },
+            "seekBar": {
+                "foreground": "black",
+                "background": "white",
+                "border": {
+                    "size": 2,
+                    "pattern": "black"
+                },
+                "rect": [43, 191, 314, 16],
+                "radius": 5
+            }
+        }
+
+    }
+}
+
+

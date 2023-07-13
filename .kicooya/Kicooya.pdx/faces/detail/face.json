@@ -1,0 +1,248 @@
+{
+    "face": {
+        "title": "Detail",
+        "author": "Abeno Studio",
+        "debug": false,
+        "preinstall": true,
+        "lua": null,
+        "fonts": [
+            {
+                "id": "Shinonome14",
+                "path": "faces/detail/fonts/Shinonome/Shinonome14"
+            }
+        ],
+        "textStyles": [
+            {
+                "id": "label",
+                "font": "Roobert10Bold",
+                "drawMode": "copy",
+                "hAlign": "right",
+                "vAlign": "middle"
+            },
+            {
+                "id": "dsc",
+                "font": "Shinonome14",
+                "drawMode": "copy",
+                "hAlign": "left",
+                "vAlign": "middle"
+            },
+            {
+                "id": "dscnum",
+                "font": "Shinonome14",
+                "drawMode": "copy",
+                "hAlign": "right",
+                "vAlign": "middle"
+            }
+        ],
+        "background": {
+            "texts": [
+                {
+                    "text": "title :",
+                    "style": "label",
+                    "rect": [86, 5, 79, -1]
+                },
+                {
+                    "text": "album :",
+                    "style": "label",
+                    "rect": [86, 24, 79, -1]
+                },
+                {
+                    "text": "artist :",
+                    "style": "label",
+                    "rect": [86, 43, 79, -1]
+                },
+                {
+                    "text": "composer :",
+                    "style": "label",
+                    "rect": [86, 62, 79, -1]
+                },
+                {
+                    "text": "genre :",
+                    "style": "label",
+                    "rect": [2, 91, 54, -1]
+                },
+                {
+                    "text": "year :",
+                    "style": "label",
+                    "rect": [2, 108, 54, -1]
+                },
+                {
+                    "text": "track :",
+                    "style": "label",
+                    "rect": [2, 125, 54, -1]
+                },
+                {
+                    "text": "disc :",
+                    "style": "label",
+                    "rect": [2, 142, 54, -1]
+                },
+                {
+                    "text": "format :",
+                    "style": "label",
+                    "rect": [2, 159, 54, -1]
+                },
+                {
+                    "text": "index :",
+                    "style": "label",
+                    "rect": [176, 184, 90, -1]
+                },
+                {
+                    "text": "time :",
+                    "style": "label",
+                    "rect": [176, 203, 90, -1]
+                },
+                {
+                    "text": "file size :",
+                    "style": "label",
+                    "rect": [152, 91, 69, -1]
+                },
+                {
+                    "text": "bit rate :",
+                    "style": "label",
+                    "rect": [152, 108, 69, -1]
+                },
+                {
+                    "text": "fs :",
+                    "style": "label",
+                    "rect": [152, 125, 69, -1]
+                },
+                {
+                    "text": "encoder :",
+                    "style": "label",
+                    "rect": [152, 142, 69,-1]
+                },
+                {
+                    "text": "modified :",
+                    "style": "label",
+                    "rect": [152, 159, 69, -1]
+                }
+            ],
+            "images": []
+        },
+        "foreground": {
+            "texts": [
+                {
+                    "text": "${song.title}",
+                    "style": "dsc",
+                    "rect": [175, 5, 223, -1]
+                },
+                {
+                    "text": "${song.album}",
+                    "style": "dsc",
+                    "rect": [175, 24, 223, -1]
+                },
+                {
+                    "text": "${song.artist}",
+                    "style": "dsc",
+                    "rect": [175, 43, 223, -1]
+                },
+                {
+                    "text": "${song.composer}",
+                    "style": "dsc",
+                    "rect": [175, 62, 223, -1]
+                },
+                {
+                    "text": "${song.genre}",
+                    "style": "dsc",
+                    "rect": [66, 91, 84, -1]
+                },
+                {
+                    "text": "${song.year}",
+                    "style": "dsc",
+                    "rect": [66, 108, 84, -1]
+                },
+                {
+                    "text": "${song.track}",
+                    "style": "dsc",
+                    "rect": [66, 125, 84, -1]
+                },
+                {
+                    "text": "${song.disc}",
+                    "style": "dsc",
+                    "rect": [66, 142, 84, -1]
+                },
+                {
+                    "text": "${song.fileFormat}",
+                    "style": "dsc",
+                    "rect": [66, 159, 84, -1]
+                },
+                {
+                    "text": "${song.fileSizeReadable}",
+                    "style": "dsc",
+                    "rect": [231, 91, 167, -1]
+                },
+                {
+                    "text": "${song.bitrate}",
+                    "style": "dsc",
+                    "rect": [231, 108, 167, -1]
+                },
+                {
+                    "text": "${song.samplingRate}",
+                    "style": "dsc",
+                    "rect": [231, 125, 167, -1]
+                },
+                {
+                    "text": "${song.encodedBy}",
+                    "style": "dsc",
+                    "rect": [231, 142, 167, -1]
+                },
+                {
+                    "text": "${song.lastModified}",
+                    "style": "dsc",
+                    "rect": [231, 159, 167, -1]
+                },
+                {
+                    "text": "${playlist.currentIndex} / ${playlist.length}",
+                    "style": "dscnum",
+                    "rect": [276, 184, 100, -1]
+                },
+                {
+                    "text": "${player.currentPlaybackPosition} / ${player.currentPlaybackDuration}",
+                    "style": "dscnum",
+                    "rect": [276, 203, 100, -1]
+                }
+            ],
+            "images": [
+                {
+                    "path": "faces/detail/background",
+                    "pos": [0, 0]
+                },
+                {
+                    "path": "song.artImageSmall",
+                    "rect": [3, 3, 80, 80],
+                    "border": {
+                        "size": 1,
+                        "pattern": "black"
+                    }
+                }
+            ],
+            "playerButtons": {
+                "type": "vertical",
+                "path": "faces/detail/playerButtons",
+                "pos": [379, 181]
+            },
+            "seekBar": {
+                "foreground": "black",
+                "background": "white",
+                "border": {
+                    "size": 1,
+                    "pattern": "black"
+                },
+                "rect": [176, 223, 200, 12],
+                "radius": 2
+            },
+            "audioSpectrum": {
+                "type": "stereo",
+                "foreground": "black",
+                "background": null,
+                "peek": null,
+                "blockMarginWidth": 14,
+                "itemWidth": 6,
+                "itemHeight": 60,
+                "itemMarginWidth": 2,
+                "peekHeight": 2,
+                "rect": [5, 208, 160, -1]
+            }
+        }
+    }
+}

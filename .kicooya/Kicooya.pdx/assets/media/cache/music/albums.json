@@ -1,0 +1,11 @@
+[
+    {
+        "title":"Sample",
+        "artist":"Abeno Studio",
+        "year":2023,
+        "songs":[
+            "assets\/media\/music\/Sample01.mp3",
+            "assets\/media\/music\/Sample02.mp3"
+        ]
+    }
+]

@@ -1,0 +1,13 @@
+{
+  "actions" : {
+    "build" : {
+      "enabled" : true,
+      "script" : ".\/.kicooya\/build.sh\n"
+    },
+    "run" : {
+      "enabled" : true,
+      "script" : ".\/.kicooya\/build-run-device.sh\n"
+    }
+  },
+  "openLogOnRun" : "fail"
+}

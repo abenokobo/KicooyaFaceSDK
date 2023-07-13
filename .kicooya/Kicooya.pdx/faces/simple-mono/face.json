@@ -1,0 +1,115 @@
+{
+    "face": {
+        "title": "Simple(mono)",
+        "author": "Abeno Studio",
+        "debug": false,
+        "preinstall": true,
+        "lua": null,
+        "fonts": [],
+        "patterns": [],
+        "textStyles": [
+            {
+                "id": "ttl",
+                "font": "font.title",
+                "drawMode": "nxor",
+                "hAlign": "center",
+                "vAlign": "middle"
+            },
+            {
+                "id": "dsc",
+                "font": "font.description",
+                "drawMode": "nxor",
+                "hAlign": "center",
+                "vAlign": "middle"
+            },
+            {
+                "id": "numr",
+                "font": "FullCircle",
+                "drawMode": "nxor",
+                "hAlign": "right",
+                "vAlign": "middle"
+            },
+            {
+                "id": "numl",
+                "font": "FullCircle",
+                "drawMode": "nxor",
+                "hAlign": "left",
+                "vAlign": "middle"
+            }
+        ],
+        "background": {
+            "texts": [],
+            "images": [
+                {
+                    "path": "faces/simple/background",
+                    "pos": [0, 0]
+                },
+                {
+                    "path": "song.artImageLarge",
+                    "rect": [10, 52, 180, 180],
+                    "border": {
+                        "size": 2,
+                        "pattern": "densechecker"
+                    }
+                }
+            ]
+        },
+        "foreground": {
+            "texts": [
+                {
+                    "text": "${song.title}",
+                    "style": "ttl",
+                    "rect": [0, 0, 400, 44]
+                },
+                {
+                    "text": "${song.album}",
+                    "style": "dsc",
+                    "rect": [200, 56, 190, 20]
+                },
+                {
+                    "text": "${song.artist}",
+                    "style": "dsc",
+                    "rect": [200, 84, 190, 20]
+                },
+                {
+                    "text": "${playlist.currentIndex} / ${playlist.length}",
+                    "style": "numr",
+                    "rect": [200, 109, 195, -1]
+                },
+                {
+                    "text": "${player.currentPlaybackPosition}",
+                    "style": "numl",
+                    "rect": [200, 220, 100, -1]
+                },
+                {
+                    "text": "-${player.currentPlaybackTimeRemaining}",
+                    "style": "numr",
+                    "rect": [257, 220, 100, -1]
+                }
+            ],
+            "images": [],
+            "playerButtons": {
+                "type": "vertical",
+                "path": "faces/simple/playerButtons",
+                "pos": [361, 131]
+            },
+            "seekBar": {
+                "foreground": "black",
+                "background": "white",
+                "border": {
+                    "size": 2,
+                    "pattern": "black"
+                },
+                "rect": [200, 199, 157, 16],
+                "radius": 3
+            },
+            "audioSpectrum": {
+                "type": "mono",
+                "foreground": "double",
+                "background": null,
+                "border": null,
+                "rect": [200, 131, 156, 64]
+            }
+        }
+    }
+}

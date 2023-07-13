@@ -1,0 +1,36 @@
+{
+    "face": {
+        "title": "Lua",
+        "author": "Abeno Studio",
+        "debug": false,
+        "playerButtons": {
+            "type": "vertical",
+            "path": "faces-user/lua/playerButtons",
+            "pos": [
+                379,
+                181
+            ]
+        },
+        "lua": {
+            "path": "faces-user/lua/face",
+            "arg": ""
+        },
+        "foreground": {
+            "seekBar": {
+                "foreground": "black",
+                "background": "white",
+                "border": {
+                    "size": 1,
+                    "pattern": "black"
+                },
+                "rect": [
+                    10,
+                    232,
+                    364,
+                    6
+                ],
+                "radius": 1
+            }
+        }
+    }
+}
