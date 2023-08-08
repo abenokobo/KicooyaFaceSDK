@@ -5,7 +5,8 @@
 Kicooya Face SDK には、UserFace（ユーザー定義の Kicooya の再生画面)を作成するためのツール、およびドキュメントが含まれています。
 
 - **Kicooya Face SDK は現在ベータリリースです。今後、大幅な仕様変更等が発生する可能性があることをご了承ください。**
-- **Playdate SDK Ver 2.0.0 時点では、Data Folder にある Lua Script は実行できないため、.pdx の中に UserFace のファイルをコピーして実行しています。 今後、Lua Script が Data Folder から実行できるようになった場合には、UserFace ファイルを Dataフォルダに置くよう変更する予定です。**
+- **Data Folder にある Lua Script は実行できないため、Kicooya.pdx の中に UserFace の全ファイルをコピーして実行できるようにしています。そのため、Kicooya をアップデートしたときに、UserFace が削除されてしまう問題があります。今後の Face SDK 更新で、Lua Script のみを Kicooya.pdx にコピーするよう動作を変更する予定です。**
+
 
 ## ファイル構成
 

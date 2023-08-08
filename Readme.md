@@ -5,7 +5,7 @@
 The Kicooya Face SDK includes tools and documentation for creating UserFaces (user-defined Kicooya playback screens).
 
 - **Kicooya Face SDK is currently in Beta release. Please note that there is a possibility of significant specification changes in the future.**
-- **As of Playdate SDK Ver 2.0.0, Lua Scripts in the Data Folder cannot be executed, so the face files are copied into .pdx for execution. In the future, when Lua Scripts can be executed from the Data Folder, we plan to change the UserFace files to be placed in the Data folder.**
+- **User face files are copied into Kicooya.pdx, because Lua Scripts in the Data Folder cannot be executed. Therefore, there is a problem that UserFace is deleted when Kicooya is updated. In a future Face SDK update, it is planned to change the behavior so that only the Lua Script is copied to Kicooya.pdx.**
 
 ## Folder structure
 
